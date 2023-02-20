@@ -1,0 +1,81 @@
+
+v1.0.191 [ERROR] 2023.02.17 AD at 11:03:20 IST
+Error while creating zide settings instance .
+java.io.IOException: Cannot find .zide_resources/zide_settings.xml
+org.eclipse.core.internal.runtime.FindSupport.openStream(FindSupport.java:278)
+org.eclipse.core.runtime.FileLocator.openStream(FileLocator.java:243)
+com.zoho.zide.util.ZideSettings.init(ZideSettings.java:41)
+com.zoho.zide.util.ZideSettings.<init>(ZideSettings.java:31)
+com.zoho.zide.util.ZideSettings.getInstance(ZideSettings.java:162)
+com.zoho.zide.util.ZideConfigAPI.getZideIgnoreEntries(ZideConfigAPI.java:163)
+com.zoho.zide.activator.PluginStarter.updateZideIgnoreEntries(PluginStarter.java:345)
+com.zoho.zide.activator.PluginStarter.earlyStartup(PluginStarter.java:243)
+org.eclipse.ui.internal.EarlyStartupRunnable.runEarlyStartup(EarlyStartupRunnable.java:79)
+org.eclipse.ui.internal.EarlyStartupRunnable.run(EarlyStartupRunnable.java:55)
+org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+org.eclipse.ui.internal.Workbench$40.run(Workbench.java:2711)
+org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+v1.0.191 [INFO] 2023.02.17 AD at 11:03:21 IST
+ZIDE Startup--------------------------------------------------------------------------------
+Eclipse version = 4.13.0.v20190916-1045
+Java version = 1.8.0_333
+OS = Windows 10
+hg version = 6.2.1+hg6.a331725d01f8
+
+v1.0.191 [INFO] 2023.02.17 AD at 11:03:21 IST
+Job Hacksaw sync Scheduler started
+
+v1.0.191 [WARNING] 2023.02.17 AD at 11:03:23 IST
+Failed to download http://zide.csez.zohocorpin.com/softwares/zide_config.xml
+java.io.IOException: Invalid response(301)
+com.zoho.zide.resource.provider.HttpFileProvider.preConnect(HttpFileProvider.java:87)
+com.zoho.zide.resource.provider.HttpFileProvider.start(HttpFileProvider.java:47)
+com.zoho.zide.resource.handler.ResourceHandler.getResource(ResourceHandler.java:29)
+com.zoho.zide.util.ZideConfig.downloadConfiguration(ZideConfig.java:586)
+com.zoho.zide.scheduler.AutomaticUpdateJob$2.run(AutomaticUpdateJob.java:123)
+org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+
+v1.0.191 [WARNING] 2023.02.17 AD at 11:03:28 IST
+Failed to download http://zide.csez.zohocorpin.com/softwares/zide_config.xml
+java.io.IOException: Invalid response(301)
+com.zoho.zide.resource.provider.HttpFileProvider.preConnect(HttpFileProvider.java:87)
+com.zoho.zide.resource.provider.HttpFileProvider.start(HttpFileProvider.java:47)
+com.zoho.zide.resource.handler.ResourceHandler.getResource(ResourceHandler.java:29)
+com.zoho.zide.util.ZideConfig.downloadConfiguration(ZideConfig.java:586)
+com.zoho.zide.scheduler.AutomaticUpdateJob$2.run(AutomaticUpdateJob.java:123)
+org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+
+v1.0.191 [WARNING] 2023.02.17 AD at 11:03:29 IST
+Failed to download http://zide.csez.zohocorpin.com/softwares/zide_config.xml
+java.io.IOException: Invalid response(301)
+com.zoho.zide.resource.provider.HttpFileProvider.preConnect(HttpFileProvider.java:87)
+com.zoho.zide.resource.provider.HttpFileProvider.start(HttpFileProvider.java:47)
+com.zoho.zide.resource.handler.ResourceHandler.getResource(ResourceHandler.java:29)
+com.zoho.zide.util.ZideConfig.downloadConfiguration(ZideConfig.java:586)
+com.zoho.zide.scheduler.AutomaticUpdateJob$2.run(AutomaticUpdateJob.java:123)
+org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+
+v1.0.191 [INFO] 2023.02.17 AD at 11:03:31 IST
+Job ZideWorkspaceSettings Started
+
+v1.0.191 [WARNING] 2023.02.17 AD at 11:03:31 IST
+Failed to download http://zide.csez.zohocorpin.com/downloads/softwares/docker/service.sh
+java.io.IOException: Invalid response(301)
+com.zoho.zide.resource.provider.HttpFileProvider.preConnect(HttpFileProvider.java:87)
+com.zoho.zide.resource.provider.HttpFileProvider.start(HttpFileProvider.java:47)
+com.zoho.zide.resource.handler.ResourceHandler.getResource(ResourceHandler.java:29)
+com.zoho.zide.util.FileUtils.downloadFile(FileUtils.java:289)
+com.zoho.zide.util.FileUtils.downloadFile(FileUtils.java:276)
+com.zoho.zide.util.FileUtils.downloadAndExtract(FileUtils.java:263)
+com.zoho.zide.codecheck.LiveStreamReader.sync(LiveStreamReader.java:51)
+com.zoho.zide.codecheck.LiveStreamReader.forceSync(LiveStreamReader.java:46)
+com.zoho.zide.codecheck.LiveStreamReader.forceSync(LiveStreamReader.java:41)
+com.zoho.zide.activator.ZideWorkspaceSettings.init(ZideWorkspaceSettings.java:92)
+com.zoho.zide.activator.ZideWorkspaceSettings.lambda$run$0(ZideWorkspaceSettings.java:41)
+com.zoho.zide.activator.ZideWorkspaceSettings.runIf(ZideWorkspaceSettings.java:104)
+com.zoho.zide.activator.ZideWorkspaceSettings.run(ZideWorkspaceSettings.java:41)
+org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+v1.0.191 [INFO] 2023.02.17 AD at 11:03:31 IST
+RemoteFileDownload: URL = http://zide.csez.zohocorpin.com/downloads/softwares/docker/service.sh; status = FAILED; size = 0B
